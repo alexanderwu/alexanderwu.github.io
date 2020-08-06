@@ -17,15 +17,15 @@ I may not practice what I preach, but here are my condensed notes to remind myse
 If you're stuck...
 
 * Define words specific to your topic. This is especially important if there's no consensus on what the terms mean.
-  * Let's say you're writing about "Artificial Intelligence". Do people even agree what it means?<sup>[1](#note1)</sup> In your own words, write down your definition. Then consider, what do I have to add?
+  * Let's say you're writing about "Artificial Intelligence". Do people even agree what it means?<sup>[1](#note1)</sup> In your own words, write down your definition. Then consider, what do I have to add to this discussion?
 * Have a way to jot down and capture ideas that occur sporadically throughout the day.
-  * For me, that's editing markdown files with Sublime Text. Or if I'm on the road, I use Google Keep on my phone.<sup>[2](#note2)</sup>.
+  * For me, that's editing markdown files with Sublime Text. Or if I'm on the road, I use Google Keep on my phone<sup>[2](#note2)</sup>.
 * Most importantly, you just have to _do it_.
-  * Exercise your muscles. You ain't gonna get buff by reading biophysics. Just _hit the gym_<sup>[3](#note3)</sup>. Just _do it_.
+  * Exercise your writing muscles. You ain't gonna get buff by reading biophysics. Just _hit the gym_<sup>[3](#note3)</sup>. Just _do it_.
 
 <hr>
 <div class="sub">
   <div><a name="note1">1</a> No, they don't</div>
-  <div><a name="note2">2</a> No, I'm not sponsored</div>  
-  <div><a name="note3">3</a> No, I don't lift</div>  
+  <div><a name="note2">2</a> I'd personally recommend Visual Studio Code as a text editor. Typora looks neat for editing markdown specifically. Google Keep is cool too, but I'm sure there's plenty of better options out there (I haven't bothered to research)</div>
+  <div><a name="note3">3</a> i.e. sit down and write. I don't literally mean go to the gym -- it's a metaphor.</div>
 </div>
