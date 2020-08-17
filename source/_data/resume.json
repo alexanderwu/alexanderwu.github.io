@@ -1,0 +1,188 @@
+{
+  "basics": {
+    "name": "Alexander J. Wu",
+    "email": "alexander.wu7@gmail.com",
+    "phone": "(510) 519-8592",
+    "website": "https://alexanderwu.github.io",
+    "location": {
+      "address": "",
+      "postalCode": "94539",
+      "city": "Fremont",
+      "countryCode": "US",
+      "region": "CA"
+    },
+    "profiles": [
+      {
+        "network": "Website",
+        "username": "alexanderwu.github.io",
+        "url": "https://alexanderwu.github.io"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "/in/alexanderwu7",
+        "url": "https://www.linkedin.com/in/alexanderwu7/"
+      },
+      {
+        "network": "GitHub",
+        "username": "/alexanderwu",
+        "url": "https://github.com/alexanderwu"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Halicioglu Data Science Institute",
+      "position": "Graduate Student Researcher",
+      "location": "UC San Diego",
+      "website": "",
+      "startDate": "April 2019",
+      "endDate": "July 2020",
+      "highlights": [
+        "Contract work with Navy to investigate effectiveness of IT technicians among dozens of Navy ships in a 6 year period",
+        "Wrangled unstructured data with Pandas to enable analysis of key metrics over time per ship",
+        "Leveraged NLP (text preprocessing, topic modeling, etc.) for root-cause analysis of over 10K trouble tickets"
+      ]
+    },
+    {
+      "company": "Aruba Networks",
+      "position": "Data Science Intern",
+      "location": "Santa Clara, CA",
+      "startDate": "June 2018",
+      "endDate": "Sep 2018",
+      "highlights": [
+        "Prototyped change detection model of WiFi traffic for Aruba NetInsight dashboard",
+        "Wrote PySpark script for end-to-end data processing to update change detection model daily",
+        "Interactively visualized model for tuning, debugging, and diagnostics using Bokeh"
+      ]
+    },
+    {
+      "company": "Northrop Grumman",
+      "position": "Software Engineer Intern",
+      "location": "San Diego, CA",
+      "startDate": "June 2017",
+      "endDate": "Sep 2017",
+      "highlights": [
+        "Designed, integrated, and tested Java GUI to monitor and control subsystems of an autonomous aircraft",
+        "Engaged in Agile scrum methodology to efficiently develop software"
+      ]
+    },
+    {
+      "company": "ProDIGIQ",
+      "position": "Software Engineer Intern",
+      "location": "Thousand Oaks, CA",
+      "startDate": "June 2016",
+      "endDate": "Sep 2016",
+      "highlights": [
+        "Developed, customized, and configured Ruby on Rails web applications for four airports",
+        "Hepled digitize inspection forms, manage leases, track wildlife incidents, and monitor flight delays",
+        "Highlight tarmac delays in real-time with CSS and JavaScript, helping prevent million-dollar fines for airlines",
+        "Designed MySQL database schema to collect airport-specific data and debug data input/updates"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UC San Diego",
+      "area": "Computer Science, Depth: Artificial Intelligence",
+      "studyType": "M.S.",
+      "location": "La Jolla, CA",
+      "startDate": "Sep 2018",
+      "endDate": "June 2020",
+      "gpa": "3.78"
+    },
+    {
+      "institution": "UC Santa Barbara",
+      "area": "Computer Science, Minor: Statistical Science",
+      "studyType": "B.S.",
+      "location": "Santa Barbara, CA",
+      "startDate": "Aug 2014",
+      "endDate": "June 2018",
+      "gpa": "3.92"
+    }
+  ],
+  "projects": [
+    {
+      "name": "JobServant",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "REST API",
+        "MongoDB"
+      ],
+      "description": "AI-powered web app to organize the job search"
+    },
+    {
+      "keywords": [
+        "Flask",
+        "Scikit-learn"
+      ],
+      "name": "Food Review Sentiment Analysis",
+      "description": "Web app to predict positive vs negative Yelp reviews with real-time user input"
+    },
+    {
+      "keywords": [
+        "R"
+      ],
+      "name": "Farmers Insurance Claims",
+      "description": "Predict who is likely to sue small businesses insured by Farmers Insurance"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "R",
+        "SQL",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Java",
+        "C++",
+        "Ruby",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Python for Data Science",
+      "level": "",
+      "keywords": [
+        "Jupyter",
+        "pandas",
+        "matplotlib",
+        "plotly",
+        "scikit-learn"
+      ]
+    },
+    {
+      "name": "Big Data and Cloud",
+      "keywords": [
+        "Spark",
+        "Hadoop",
+        "Amazon Web Services (AWS)",
+        "Docker",
+        "Kubernetes",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Web Technology",
+      "keywords": [
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Jest"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "keywords": [
+        "PyTorch",
+        "Keras",
+        "TensorFlow",
+        "TensorBoard"
+      ]
+    }
+  ]
+}

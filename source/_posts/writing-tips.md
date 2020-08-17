@@ -26,6 +26,6 @@ If you're stuck...
 <hr>
 <div class="sub">
   <div><a name="note1">1</a> No, they don't</div>
-  <div><a name="note2">2</a> I'd personally recommend Visual Studio Code as a text editor. Typora looks neat for editing markdown specifically. Google Keep is cool too, but I'm sure there's plenty of better options out there (I haven't bothered to research)</div>
+  <div><a name="note2">2</a> I'd personally recommend Visual Studio Code as a text editor. Typora looks neat for viewing/editing markdown specifically.</div>
   <div><a name="note3">3</a> i.e. sit down and write. I don't literally mean go to the gym -- it's a metaphor.</div>
 </div>
