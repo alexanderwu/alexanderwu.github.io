@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Personal website">
+    <meta author="Alexander Wu">
+    <link rel="icon" href="/favicon/favicon.ico">
+    <title>alexanderwu</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  <meta name="generator" content="Hexo 5.0.2"></head>
+  <body>
+    <link rel="stylesheet" href="/css/header.css">
+
+<header>
+  <nav class="container">
+    <a href="/" class="logo">Alex Wu</a>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</header>
+    <div class="main container">
+      <h1>Everything I Learned at UCSD</h1>
+<p class="sub">Last updated: 2020-08-25</p>
+<p>(this article is incomplete)</p>
+<p>I did my Computer Science M.S. at UC San Diego, specializing in artificial intelligence. I decided to pursue a Masters because I love learning and felt I could benefit from more knowledge in machine learning and AI.</p>
+<p>Decided early on that I didn’t want to pursue a PhD. I feel a PhD is too specialized and too much of a sacrifice/commitment when I could be earning money applying what is already known. Research is an important and intellectually satisfying, don’t get me wrong, but it’s certainly not for everyone. I’ve heard of PhDs described as roller coaster - with very high highs and very low lows.</p>
+<p>Anways, here are some of my takeaways from doing grad school at UCSD.</p>
+<hr>
+<h2 id="Fall-2018"><a href="#Fall-2018" class="headerlink" title="Fall 2018"></a>Fall 2018</h2><p><strong>CSE 219 - Design at Large</strong> (1 unit)</p>
+<p><em>New societal challenges, cultural values, and technological opportunities are changing design—and vice versa. The seminar explores this increased scale, real-world engagement, and disruptive impact. Invited speakers from UC San Diego and beyond share cutting-edge research on interaction, design, and learning.</em></p>
+<ul>
+<li>(Meets one hour a week. Don’t remember much from this seminar.)</li>
+</ul>
+<p><strong>CSE 250A - Principles of Artificial Intelligence: Probabilistic Reasoning and Learning</strong></p>
+<p><em>Methods based on probability theory for reasoning and learning under uncertainty. Content may include directed and undirected probabilistic graphical models, exact and approximate inference, latent variables, expectation-maximization, hidden Markov models, Markov decision processes, applications to vision, robotics, speech, and/or text.</em></p>
+<ul>
+<li>Lots and lots of Bayes’ rule. I’ve practically got it memorized: P(A|B) = P(B|A)P(A)</li>
+<li>Belief networks (BNs) = Directed Acyclic Graphs (DAGs) + Conditional Probability Tables (CPTs)<ul>
+<li>d-separation is a criterion for deciding whether a set of variables X is independent of another set Y, given a third set Z</li>
+<li>Approximate inference in BNs with MCMC (Markov Chain Monte Carlo) “simulation”</li>
+</ul>
+</li>
+<li>Hidden Markov Models (HMMs)<ul>
+<li>Viterbi algorithm to find mostly likely sequence of hidden states</li>
+</ul>
+</li>
+<li>Reinforcement learning<ul>
+<li>Markov Decision process (MDP)</li>
+<li>Discounted, infinite horizon return</li>
+<li>Bellman’s equation</li>
+</ul>
+</li>
+</ul>
+<p><strong>CSE 258 - Recommender Systems and Web Mining</strong></p>
+<p><em>Current methods for data mining and predictive analytics. Emphasis is on studying real-world data sets, building working systems, and putting current ideas from machine learning research into practice.</em></p>
+<ul>
+<li>Collaborative filtering</li>
+<li>Recommender systems<ul>
+<li>via latent factor models and matrix factorization</li>
+</ul>
+</li>
+<li>“Friendship paradox”<ul>
+<li>E.g. why does it seem that my friends have more friends than I do?</li>
+<li>Explanation: you are more likely to be friends with people with large amount of friends</li>
+</ul>
+</li>
+</ul>
+<p><strong>MUS 206 - Music Generation</strong></p>
+<p><em>In this seminar we will explore the use of machine learning and deep neural network technologies for creative purposes. Our focus will be on generative methods and their relevance to modeling of creative processes and cognition, with applications to style transfer and machine improvisation.</em></p>
+<p><em>We will introduce python and TensorFlow, and use of GPU cluster for running deep learning algorithms. The models to be discussed include variable Markov models, auto encoders, convolution networks, GANS and more.</em></p>
+<ul>
+<li>Computer generated music kinda sucks</li>
+</ul>
+<h2 id="Winter-2019"><a href="#Winter-2019" class="headerlink" title="Winter 2019"></a>Winter 2019</h2><p><strong>CSE 221 - Operating Systems</strong></p>
+<p><em>Operating system structures, concurrent computation models, scheduling, synchronization mechanisms, address spaces, memory management protection and security, buffering, streams, data-copying reduction techniques, file systems, naming, caching, disk organization, mapped files, remote file systems, case studies of major operating systems.</em></p>
+<ul>
+<li>The class was intimidating at first because the entire class consists of the professor calling on students to answer questions about the assigned readings (he called it the Socratic method). Really learned how to read technical papers.</li>
+<li>The papers we read could roughly be categorized as:<ul>
+<li>Philosophy - What ought to be done</li>
+<li>Theoretical - Deriving truths. Generalizing with abstractions</li>
+<li>Design and implementation - How to create a new OS and what are its benefits/drawbacks</li>
+<li>Experience - System has been built and is used</li>
+<li>Performance - Main contribution of paper are the performance numbers</li>
+</ul>
+</li>
+<li>The first few questions the professor will always ask about the readings:<ul>
+<li>“In ten words or less, what is the paper about?”</li>
+<li>“What type of paper is it? (philosophy, theoretical, etc.)”</li>
+</ul>
+</li>
+</ul>
+<p><strong>CSE 250B - Principles of Artificial Intelligence: Learning Algorithms</strong></p>
+<p><em>Algorithms for supervised and unsupervised learning from data. Content may include maximum likelihood; log-linear models, including logistic regression and conditional random fields; nearest neighbor methods; kernel methods; decision trees; ensemble methods; optimization algorithms; topic models; neural networks; and backpropagation</em></p>
+<ul>
+<li>Professor Dasgupta started off the class with k-nearest neighbor (KNN) classifier on MNIST dataset</li>
+<li>Statistical learning framework<ul>
+<li>Central assumption: all data (past, present, future) are i.i.d. draws from the same distribution</li>
+<li>Bayes optimal classifier (theoretically, this is the best you can do)</li>
+</ul>
+</li>
+<li>Three learning modalities<ul>
+<li>Supervised learning - for solving prediction problems<ul>
+<li>nearest neighbor, generative models for prediction, linear regression, logistic regression, perceptron, support vector machines, kernel methods, decision trees, boosting, random forests, neural nets</li>
+</ul>
+</li>
+<li>Unsupervised learning - for finding good representations<ul>
+<li>clusters; low-dimensional subspaces; manifolds; dictionaries; independent components; topics</li>
+</ul>
+</li>
+<li>Learning through interaction<ul>
+<li>E.g., reinforcement learning</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Metric spaces<ul>
+<li>Lp space. Typically, we only care about L1, L2, and L∞.</li>
+</ul>
+</li>
+<li>Cross valiation is cheap for ridge regression (not so for Lasso) because we have a closed-form solution (i.e. we can directly solve with matrix operations instead of gradient descent)<ul>
+<li>Lasso regression uses L1 regularization. Useful for shrinkage, more coefficients are zero, so we can use as dimensionality reduction.</li>
+<li>Ridge regression uses L2 regularization.</li>
+<li>Elastic net uses a linear combination of L1 and L2 penalties</li>
+</ul>
+</li>
+<li>(more)…</li>
+</ul>
+<h2 id="Spring-2019"><a href="#Spring-2019" class="headerlink" title="Spring 2019"></a>Spring 2019</h2><p><strong>CSE 218 - Advanced Topics in Software Engineering</strong></p>
+<p><em>This course will cover a current topic in software engineering in depth. Topics in the past have included software tools, impacts of programming language design, and software system structure.</em></p>
+<ul>
+<li>The class is split into teams to refactor the Flappy Cow android game (similar to “Flappy Bird”) based of design principles we learn and discuss throughout the course</li>
+<li>At its core, the class is about how to modularize software</li>
+<li>Some benefits of modularity:<ul>
+<li>Maintainability</li>
+<li>Readability / Understandability / Comprehensibility</li>
+<li>Testability / Debugabilty</li>
+<li>Reusability / Interchangeability</li>
+<li>Division of labor / parallel work / specialization</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/SOLID">SOLID</a><ul>
+<li>Single Responsibility Principle (SRP) - A class should have only one reason to change</li>
+<li>Open-Closed Principle (OCP) - Open for extensions, but closed for modification</li>
+<li>Liskov Substitution Principle (LSP) - Can substitute objects with instances of their subclass</li>
+<li>Interface Segregation Principle (ISP) - No client should be forced to depend on methods it does not use</li>
+<li>Dependency Inversion Principle (DIP) - Depend on abstractions, not details</li>
+</ul>
+</li>
+<li>Don’t Repeat Yourself (DRY)<ul>
+<li>If you find yourself copy-pasting the same code 3 times, it’s time to wrap it into a function call</li>
+</ul>
+</li>
+<li>You Ain’t Gonna Need It (YAGNI)<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/kelseyhightower/nocode">No code</a> is best code</li>
+</ul>
+</li>
+<li>Some design patterns:<ul>
+<li>Strategy pattern (similar to DIP)</li>
+<li>Observer pattern</li>
+<li>Mediator pattern</li>
+<li>Factory pattern. Abstract factory pattern.</li>
+</ul>
+</li>
+<li>Design by Contract</li>
+<li>Law of Demeter</li>
+<li>Aspect oriented programming (AOP)<ul>
+<li>Aims to increase modularity by allowing separation of cross-cutting concerns</li>
+<li>AspectJ is a Java implementation of AOP.</li>
+<li>CSS is kinda like AOP</li>
+</ul>
+</li>
+</ul>
+<p><strong>CSE 256 - Statistical Natural Language Processing</strong></p>
+<p><em>An introduction to modern statistical approaches to natural language processing: part of speech tagging, word sense disambiguation and parsing, using Markov models, hidden Markov models, and probabilistic context-free grammars.</em></p>
+<hr>
+<h2 id="Fall-2019"><a href="#Fall-2019" class="headerlink" title="Fall 2019"></a>Fall 2019</h2><p><strong>CSE 202 - Algorithm Design and Analysis</strong></p>
+<p><em>The basic techniques for the design and analysis of algorithms. Divide-and-conquer, dynamic programming, data structures, graph search, algebraic problems, randomized algorithms, lower bounds, probabilistic analysis, parallel algorithms</em></p>
+<p><strong>CSE 252A - Computer Vision I</strong></p>
+<p><em>Comprehensive introduction to computer vision providing broad coverage including low-level vision (image formation, photometry, color, image feature detection), inferring 3-D properties from images (shape-from shading, stereo vision, motion interpretation) and object recognition.</em></p>
+<h2 id="Winter-2020"><a href="#Winter-2020" class="headerlink" title="Winter 2020"></a>Winter 2020</h2><p><strong>CSE 253</strong></p>
+<p><em>Probability density estimation, perceptrons, multilayer neural networks, radial basis function networks, support vector machines, error functions, data preprocessing. Possible topics include unsupervised learning methods, recurrent networks, and mathematical learning theory.</em></p>
+<ul>
+<li>“Backprop learns representations in service of the task”</li>
+<li>Universal approximation theorem: With enough data, neural networks can approximate any function.</li>
+<li>Max likelihood leads to MSE (Mean square error) for linear regression and cross-entropy for logistic and multinomial regression</li>
+<li>How to deal with overfitting?<ul>
+<li>Use more data</li>
+<li>Regularization</li>
+<li>Dropout: randomly turn off hidden units during learning<ul>
+<li>Intuition: dropout explores an exponential space. N choose N/2 scales exponentially</li>
+<li>Variation of dropout: drop-connect</li>
+</ul>
+</li>
+<li>Add Gassuain noise to inputs and/or hidden unit activations</li>
+<li>Early stopping: when validation loss increases, stop training</li>
+</ul>
+</li>
+<li>Use ReLU activation instead of tanh for deep networks</li>
+<li>RNNs. LSTMs. GRUs.</li>
+<li>Convolutional Neural Networks (CNNs) work well in computer vision because of inductive bias<ul>
+<li>Relies of four properties of the visual world:<ol>
+<li><em>Locality</em>: Nearby pixels depend most on nearby pixels - not pixels far away</li>
+<li><em>Stationary statistics</em>: The statistics of pixels are relatively uniform across the image</li>
+<li><em>Translation invariance</em>: Identity of object (usually) doesnt depend on its location in the image</li>
+<li><em>Compositionality</em>: Objects are made of parts</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Siamese networks</li>
+<li><strong>Transformer networks</strong><ul>
+<li>From the seminal “Attention is All You Need” (2017) paper</li>
+</ul>
+</li>
+</ul>
+<h2 id="Spring-2020"><a href="#Spring-2020" class="headerlink" title="Spring 2020"></a>Spring 2020</h2><p><strong>CSE 291E - Deep Learning for Sequence</strong></p>
+<p><em>Deep learning has had an enormous impact and has been especially effective for images (ConvNets) and sequences (RNN’s). This course focusses on deep learning for sequence processing and their application including video understanding, language translation, speech recognition, image captioning, OCR, and financial market prediction. After creating a foundation in common architectures (RNN, LSTM, GRU, Attention) and their training, we will dig into recently published papers that highlight methods and applications of deep learning for sequence processing. Each paper will be presented by a student, and all students are expected to participate in a critical discussion of these papers. There will be one or two programming assignments and a full quarter project (individual or small group).</em></p>
+<p><strong>CSE 291D - Unsupervised Learning</strong></p>
+<p><em>A broad overview of unsupervised learning, with emphasis on basic principles and on algorithmic and statistical guarantees.</em></p>
+<ul>
+<li>What can be done without labels?<ol>
+<li>Remember. Outlier detection<ul>
+<li>Nearest neighbor search<ul>
+<li>Distances and similarity measures</li>
+<li>Hashing and spatial partitioning</li>
+<li>Geometric reasoning</li>
+<li>Statistical reasoning</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Group<ul>
+<li>But clustering is ill-defined. Challenges:<ul>
+<li>What’s the right cost function?</li>
+<li>NP-hardness</li>
+<li>Algorithmic analysis</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Compress<ul>
+<li>PCA</li>
+<li>Manifold learning</li>
+<li>Dictionary learning<ul>
+<li>Datapoint translated to smaller vector</li>
+</ul>
+</li>
+<li>Autoencoding</li>
+<li>(not domain specific, unlike embedding methods)</li>
+</ul>
+</li>
+<li>Emulate<ul>
+<li>Fitting distribution to data<ul>
+<li>Exponential families</li>
+<li>Multivariate Gaussian</li>
+<li>Graph models</li>
+</ul>
+</li>
+<li>Latent variable models<ul>
+<li>Gaussian mixture</li>
+<li>HMMs</li>
+<li>Topic models</li>
+<li>Variational autoencoder</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Embed<ul>
+<li>Visualization: high-dim to 2- or 3- dim<ul>
+<li>Multidimensional scaling</li>
+<li>t-SNE</li>
+</ul>
+</li>
+<li>Word embedding<ul>
+<li>Data in complex space ⟶ simpler space whose geometry is familiar</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Wasserstein distance is preferable when we want to take into account the geometry of the outcome space<ul>
+<li>aka transportation distance or earth mover’s distance</li>
+</ul>
+</li>
+<li>Topics:<ul>
+<li>Tree-based nearest neighbor search</li>
+<li>Ball trees</li>
+<li>Cover trees</li>
+<li>Locality Sensitive Hashing (LSH)</li>
+<li>Agglomerative clustering</li>
+<li>Clustering in online and streaming settings</li>
+<li>Informative projections</li>
+<li>Random projections</li>
+<li>Spectral embeddings</li>
+<li>Multidimensional scaling</li>
+<li>Sparse coding</li>
+</ul>
+</li>
+</ul>
+
+
+    </div>
+    <style>
+  footer {
+    margin-top: 16px;
+    padding: 2rem 0;
+    text-align: center;
+    color: #888;
+    /* color: white; */
+    background-color: var(--mint);
+  }
+</style>
+
+<footer>
+  <p class="container">© 2020 · Created by Alex Wu · <a class="link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/alexanderwu7/">LinkedIn</a> · <a href="mailto:alexander.wu7@gmail.com">Email</a> · <a class="link" target="_blank" rel="noopener" href="https://github.com/alexanderwu">GitHub</a></p>
+</footer>
+  </body>
+</html>
