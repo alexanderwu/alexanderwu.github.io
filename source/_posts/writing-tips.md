@@ -23,7 +23,8 @@ If you're stuck...
 * Most importantly, you just have to _do it_.
   * Exercise your writing muscles. You ain't gonna get buff by reading biophysics. Just _hit the gym_<sup>[3](#note3)</sup>. Just _do it_.
 
-<hr>
+---
+
 <div class="sub">
   <div><a name="note1">1</a> No, they don't</div>
   <div><a name="note2">2</a> I'd personally recommend Visual Studio Code as a text editor. Typora looks neat for viewing/editing markdown specifically.</div>

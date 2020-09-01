@@ -107,21 +107,26 @@
         "Node.js",
         "Express.js",
         "REST API",
-        "MongoDB"
+        "MongoDB",
+        "Jest"
       ],
       "description": "AI-powered web app to organize the job search"
     },
     {
       "keywords": [
         "Flask",
-        "Scikit-learn"
+        "Scikit-learn",
+        "tf-idf"
       ],
       "name": "Food Review Sentiment Analysis",
       "description": "Web app to predict positive vs negative Yelp reviews with real-time user input"
     },
     {
       "keywords": [
-        "R"
+        "R",
+        "logistic regression",
+        "random forest",
+        "xgboost"
       ],
       "name": "Farmers Insurance Claims",
       "description": "Predict who is likely to sue small businesses insured by Farmers Insurance"
