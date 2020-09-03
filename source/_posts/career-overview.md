@@ -31,14 +31,17 @@ I enjoyed the customer facing aspect of the job. Every week or so, the UCSD team
 
 <img src="{% asset_path aruba.png %}" height="50px"/>
 
-The summer between UCSB and UCSD, I worked as a data science intern at Aruba Networks.
+The summer of 2018, after I graduated UCSB and was heading to UCSD for my Masters, I worked as a data science intern at Aruba Networks. Mid-sized company recently acquired by HPE. Their main competitor is Cisco.
 
 I prototyped a new feature in Aruba NetInsight to automatically detect sudden changes in daily WiFi network efficiency (bytes delivered divided by airtime used). NetInsight is a cloud based dashboard used by network administrators to monitor their WiFi network; it offers automated insights (along with root causes) and suggests changes to improve the network.
 
 My main contributions:
 
-1. Writing the PySpark script to preprocess the raw data
-2. Interactively visualizing the change detection model with Bokeh (Python visualization package). Since the model is unsupervised, we rely on visualizing model outputs to appropriately tune the model.
+1. Writing the PySpark script for ETL.
+   * Terabytes of raw data collected from ~15 buildings in the span of ~1 year. To efficiently filter this volume of data, we use elastic cloud compute. Spark is great for this because it does in-memory map reduce.
+2. Interactively visualizing the change detection model with Bokeh (Python visualization package)
+   * Since the model is unsupervised, we rely on visualizing model outputs to appropriately tune the model.
+   * Model uses convex optimization via cvxpy (Python package). Totally different from the garden variety machine learning algorithms I learned from school.
 
 * Links:
   * Aruba NetInsight overview: https://www.arubanetworks.com/techdocs/NetInsight/Content/ArubaFrameStyles/Overview/Overview.htm
@@ -48,13 +51,15 @@ My main contributions:
 
 <img src="{% asset_path northrop.png %}" height="50px"/>
 
-Worked as a software engineer intern for Northrop Grumman, a defense contractor for the U.S. government.
+Summer of 2016, I worked as a software engineer intern for Northrop Grumman, a defense contractor for the U.S. government.
 
-It was my first taste of Agile methodology and Jira (for issue tracking and code reviews).
+It was my first taste of Agile methodology and Jira (for issue tracking and code reviews). Very different process than my previous internship at a small company (ProDIGIQ).
 
 Worked on a integrating part of the GUI (graphical user interface) on an autonomous vehicle. Although the project is unclassified, interns were told not to disclose the exact plane.
 
-Codebase was primarily in Java. Used WireShark from time to time to analyze that the correct network packets were being sent/received by the GUI.
+Codebase was primarily in Java. Used WireShark from time to time to analyze that the correct network packets were being sent/received by the GUI. Interfaced with airplane pilot for feedback on GUI design.
+
+First heard of VS Code from a co-worker here.
 
 ## ProDIGIQ
 
@@ -62,7 +67,9 @@ Codebase was primarily in Java. Used WireShark from time to time to analyze that
 
 My first internship. I was referred by an acquaintance who interned there the year before. Small company (~15 people) based in Thousand Oaks.
 
-Worked on customizing Ruby on Rails web applications for four airports. I helped digitize FAA Part 139 inspection forms, manage airport leases, track wildlife incidents, and monitor flight delays. Worked with both front-end and back-end. Designed MySQL database schema to collect additional data queried database to debug data input and updates.
+Worked on customizing Ruby on Rails web applications for four airports. I helped digitize FAA Part 139 inspection forms, manage airport leases, track wildlife incidents, and monitor flight delays. Worked with both front-end and back-end. Picked up HTML, CSS, JavaScript, and Bootstrap. Designed MySQL database schema to collect additional data (each client has different needs) and queried database to debug data input and updates.
+
+Very rewarding experience. Taught me that what you learn is school and what is actually applied in the real world are two separate things. College gives you the fundamentals and teaches you how to learn, but is not sufficient to thrive in the work place. You must be proactive about keeping up with industry trends and tools being used.
 
 * Link:
-  * https://www.prodigiq.com/site/prodigiq-internships
+  * All interns write about their experience at the end of their intership: https://www.prodigiq.com/site/prodigiq-internships

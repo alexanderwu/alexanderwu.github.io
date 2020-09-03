@@ -6,4 +6,5 @@ node_modules/
 public/
 .deploy*/
 yarn.lock
+source/_drafts/
 Design Doc.md
